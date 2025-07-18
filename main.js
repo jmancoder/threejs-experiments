@@ -67,7 +67,7 @@ const blueGlowMaterial = new THREE.MeshBasicMaterial({
 
 // Monkey mesh
 const loader = new GLTFLoader();
-loader.load('./assets/monkey.glb', (gltf) => {
+loader.load('assets/monkey.glb', (gltf) => {
 	const model = gltf.scene;
 
 	// Access the "Suzanne" group
